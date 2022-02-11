@@ -1,0 +1,23 @@
+.item-wrap{
+    justify-content: flex-start;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 1em .5em 0;
+    background-color: black;
+    border-radius: 10px;
+
+}
+.item-wrap img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 1em;
+}
+
+.item-wrap p{
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    margin-top:.5em;
+}

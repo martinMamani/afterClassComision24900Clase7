@@ -1,0 +1,40 @@
+:root {
+    --main-btn-color: #272edf;
+    --main-font-family: 'Montserrat', sans-serif;
+  }
+
+
+.ilc-wrap{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column;
+    background-color: var(--main-btn-color);
+    min-height: 100%;
+    color:white
+}
+.ilc-wrap p {
+    color: white;
+    font-size: 3rem;
+}
+.ilc-wrap h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.greet{
+    font-family: var(--main-font-family);
+    font-size: 3rem;
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+.btn button{
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 20px;
+    margin: .5rem;
+    padding: .5rem;
+    
+}
